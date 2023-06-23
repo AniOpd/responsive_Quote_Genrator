@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: linear-gradient(to left bottom, lightblue, lightpink, red);
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", serif;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+  box-shadow: 0.1rem 0.6rem 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 1.5rem;
+  width: 85%;
+  text-align: center;
+  color: purple;
+}
+.heading {
+  font-size: 3.5rem;
+  font-weight: 200;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-shadow: 0.5rem 0.5rem 0.2rem rgba(255, 25, 0, 0.3);
+  letter-spacing: 0.2rem;
+}
+.Quote {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 4rem;
+}
+.btn {
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rebeccapurple;
+  text-transform: uppercase;
+  width: 300px;
+  color: purple;
+}
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
+  transition: all 900ms ease-in;
+}
+@media screen and (max-width: 1024px) {
+  .btn {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    width: 200px;
+  }
+  .Quote {
+    font-size: 1.5rem;
+  }
+  .heading {
+    font-size: 2.5rem;
+  }
+}
